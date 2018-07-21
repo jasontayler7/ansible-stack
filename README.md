@@ -1,6 +1,6 @@
 # ansible-stack
    
-   #############This is docker images based stack of ansible container and two testing nodes.################
+   #############This stack is based on docker images for creating ansible lab environment.################
 
 Stack contains below unix distributions docker images.
 
