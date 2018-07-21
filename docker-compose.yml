@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+   
+     master:
+        build: 
+           context: /home/kamal/Desktop/saturdaydockeractivity1/ansible stack
+
+           dockerfile: ansible
+           args:
+             buildno: 1 
+        container_name: ansible
+     node1:
+        build: 
+           context: /home/kamal/Desktop/saturdaydockeractivity1/ansible stack
+           dockerfile: ubuntu
+           args:
+             buildno: 1        
+        container_name: ubuntu
+     node2:
+        build: 
+           context: /home/kamal/Desktop/saturdaydockeractivity1/ansible stack
+           dockerfile: centos
+           args:
+             buildno: 1
+        container_name: centos
+
+
