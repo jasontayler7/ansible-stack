@@ -9,7 +9,7 @@ Stack contains below unix distributions docker images.
 # Testing Node2 - centos:latest
 
 
-Clone this repository and build the images.
+######################Clone this repository and build the images.#########################################
 Command to build docker images from compose file.
 
 # docker-compose build
